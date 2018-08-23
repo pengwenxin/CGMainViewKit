@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'CGMainViewKit_Example' do
+  pod 'CGMainViewKit', :path => '../'
+
+  target 'CGMainViewKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
